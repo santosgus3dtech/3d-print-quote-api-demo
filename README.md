@@ -2,6 +2,10 @@
 
 Sanitized FastAPI demo for calculating 3D-printing quotes from fake business inputs.
 
+## Screenshot
+
+![Interactive FastAPI documentation for the quote API](docs/screenshots/swagger-ui.png)
+
 ![Quote flow](docs/images/quote-flow.svg)
 
 This repo is based on real 3D-printing quoting lessons, but it contains no customer data, no private database, no brand assets and no production secrets.
