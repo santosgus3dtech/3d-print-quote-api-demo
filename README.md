@@ -4,7 +4,7 @@ Sanitized FastAPI demo for calculating 3D-printing quotes from fake business inp
 
 ## Screenshot
 
-![Interactive FastAPI documentation for the quote API](docs/screenshots/swagger-ui.png)
+![Interactive 3D print quote calculator](docs/screenshots/quote-calculator.png)
 
 ![Quote flow](docs/images/quote-flow.svg)
 
@@ -27,11 +27,13 @@ python -m pip install -r requirements.txt
 python -m uvicorn app.main:app --reload
 ```
 
-Open:
+Open the calculator:
 
 ```text
-http://127.0.0.1:8000/docs
+http://127.0.0.1:8000
 ```
+
+Interactive API documentation remains available at `http://127.0.0.1:8000/docs`.
 
 ## Example Request
 

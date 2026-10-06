@@ -79,3 +79,9 @@ def test_invalid_marketplace_fee_is_rejected():
     )
 
     assert response.status_code == 422
+
+
+def test_calculator_is_the_default_experience():
+    response = client.get("/")
+    assert response.status_code == 200
+    assert "3D print cost calculator" in response.text
