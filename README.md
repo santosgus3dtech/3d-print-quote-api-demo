@@ -1,5 +1,7 @@
 # 3D Print Quote API Demo
 
+🇧🇷 [Leia este README em Português (Brasil)](README.pt-BR.md).
+
 Sanitized FastAPI demo for calculating 3D-printing quotes from fake business inputs.
 
 ## Screenshot
