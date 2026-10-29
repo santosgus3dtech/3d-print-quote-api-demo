@@ -8,3 +8,7 @@ build/
 *.sqlite
 *.db
 outputs/
+
+# Metadados locais do cofre documental
+/docs/.obsidian/
+/docs/.trash/
